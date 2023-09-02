@@ -1,2 +1,2 @@
 /target
-/src/wacom_bindings.rs
+# /src/wacom_bindings.rs  # Disabled until we get `cargo build` to generate file
