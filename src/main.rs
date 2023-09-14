@@ -16,7 +16,6 @@ fn main() {
 
     for (path, device) in devices {
         let name: String = info::get_device_name(device);
-
         info!("Device: {0}, Name: {1}", path, name);
     }
 }
