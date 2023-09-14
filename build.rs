@@ -8,7 +8,7 @@ fn main() {
 fn add_libwacom_support() {
     let header_path: PathBuf = PathBuf::from("c").join("wacom.h");
     let include_path: PathBuf = PathBuf::from("/").join("usr").join("include").join("libwacom-1.0").join("libwacom");
-    let output_path: PathBuf = PathBuf::from("src").join("wacom_bindings.rs");
+    let output_path: PathBuf = PathBuf::from("src").join("info").join("wacom_bindings.rs");
 
     let file_header: &str = "#![allow(non_upper_case_globals)]\n#![allow(non_camel_case_types)]\n#![allow(non_snake_case)]\n#![allow(dead_code)]\n\n";
 
